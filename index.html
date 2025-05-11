@@ -1,12 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fighter Jets - The Ultimate Air Machines</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hello World!</h1>
-  <p>This is my first website.</p>
+  <!-- Header Section -->
+  <header>
+    <h1>Welcome to the World of Fighter Jets!</h1>
+    <nav>
+      <ul>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#types">Jet Types</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Introduction Section -->
+  <section id="intro">
+    <h2>What are Fighter Jets?</h2>
+    <p>Fighter jets are high-speed, agile, and heavily armed military aircraft designed for air-to-air combat and air-to-ground attacks. They are crucial for air superiority and national defense.</p>
+  </section>
+
+  <!-- Image Gallery Section -->
+  <section id="gallery">
+    <h2>Fighter Jet Gallery</h2>
+    <div class="gallery">
+      <img src="images/f22-raptor.jpg" alt="F-22 Raptor">
+      <img src="images/su-57.jpg" alt="SU-57 Felon">
+      <img src="images/rafale.jpg" alt="Dassault Rafale">
+    </div>
+  </section>
+
+  <!-- Jet Types Section -->
+  <section id="types">
+    <h2>Types of Fighter Jets</h2>
+    <div class="jet-type">
+      <h3>F-22 Raptor</h3>
+      <p>The F-22 Raptor is a fifth-generation fighter aircraft designed for air superiority and stealth. It is capable of high-speed maneuvers and stealth technology.</p>
+    </div>
+    <div class="jet-type">
+      <h3>SU-57 Felon</h3>
+      <p>The SU-57 Felon is a Russian stealth multirole fighter designed for air-to-air and air-to-ground combat. It features cutting-edge avionics and speed.</p>
+    </div>
+    <div class="jet-type">
+      <h3>Dassault Rafale</h3>
+      <p>The Dassault Rafale is a French fighter jet designed for versatility and multi-role capabilities, excelling in both air superiority and ground attack missions.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
   <script src="script.js"></script>
 </body>
 </html>
